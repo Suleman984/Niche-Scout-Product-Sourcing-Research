@@ -157,13 +157,31 @@ flowchart LR
 
 ## Screenshots
 
-| Landing page (desktop) | Landing page (mobile) |
+**Research dashboard**
+
+![Dashboard](screenshots/04-dashboard.png)
+
+Verdict split, cost-versus-margin scatter, the run's written summary, and headline counts: how many products are worth sourcing, how many are on the watchlist, and how many are confirmed as actually sold locally.
+
+| Products, ranked and filterable | Product detail |
+|---|---|
+| ![Products](screenshots/05-products.png) | ![Product detail](screenshots/06-product-detail.png) |
+
+The product page shows the landed cost against the measured local median, every gate the product passed or failed, and the written analysis, including what could make the call wrong.
+
+| Criteria (live thresholds) | Runs and Excel exports |
+|---|---|
+| ![Criteria](screenshots/07-criteria.png) | ![Runs](screenshots/08-runs-exports.png) |
+
+**Public landing page**
+
+| Desktop | Mobile |
 |---|---|
 | ![Desktop](screenshots/01-landing-hero.png) | ![Mobile](screenshots/02-landing-mobile.png) |
 
 Full landing page: [screenshots/03-landing-full-page.png](screenshots/03-landing-full-page.png)
 
-*Dashboard screenshots will be added later.*
+*Dashboard screenshots come from a demo run on a local instance with generated dummy products, suppliers and market data, signed in as a dummy admin account. The supplier names, competitor stores and figures shown are fictional, and the AI reasoning is the built-in no-model fallback.*
 
 ---
 
